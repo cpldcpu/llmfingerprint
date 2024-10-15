@@ -6,7 +6,7 @@ This is a silly experiment that explores how different LLMs respond to questions
 
 The experiment involves asking various LLMs the question, "What animal do you identify with?". The responses are visualized in the heatmaps below for two settings: a temperature setting of zero and the default temperature setting from [openrouter.ai](http://openrouter.ai) (usually ~1.0).
 
-Surprisingly, none of the LLMs identify as a Llama. Instead, the Llama family identifies as an Octopus. Many other LLMs identify as Dolphins. Owls (WizardLM), Dogs (Qwen), Wolves (gpt-4o-mini), and Cats (Gemini) are also popular choices.
+Surprisingly, none of the LLMs identify as a Llama. Instead, the Llama family identifies as an Octopus. Many other LLMs identify as Dolphins. Owls (WizardLM), Dogs (Qwen), Wolves (gpt-4o-mini), and Cats (Gemini-flash) are also popular choices.
 
 These preferences seem to be influenced by the different datasets used for pretraining and instruction fine-tuning. A more comprehensive suite of questions would likely allow for a detailed fingerprint that helps identify specific LLMs.
 

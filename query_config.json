@@ -1,0 +1,143 @@
+{
+  "llms": [
+    {
+      "name": "llama-3.1-8B-instruct",
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "temperature": 0.9,
+      "top_p": 1,
+      "frequency_penalty": 0,
+      "presence_penalty": 0,
+      "repetition_penalty": 1,
+      "top_k": 0
+    },
+    {
+      "name": "hermes-3-llama-3.1-405",
+      "model": "nousresearch/hermes-3-llama-3.1-405b",
+      "temperature": 1.0,
+      "top_p": 1,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "claude-3.5-sonnet",
+      "model": "anthropic/claude-3.5-sonnet",
+      "temperature": 0.9,
+      "top_p": 0.9,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "gpt-4o-mini",
+      "model": "openai/gpt-4o-mini",
+      "temperature": 0.7,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "gpt-4o",
+      "model": "openai/gpt-4o",
+      "temperature": 0.7,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    },    
+    {
+      "name": "gemini-flash-1.5",
+      "model": "google/gemini-flash-1.5",
+      "temperature": 0.7,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "gemini-pro-1.5",
+      "model": "google/gemini-pro-1.5",
+      "temperature": 1,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "phi-3-medium-128k-instruct",
+      "model": "microsoft/phi-3-medium-128k-instruct",
+      "temperature": 0.7,
+      "top_p": 1,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "mistral-7b-instruct",
+      "model": "mistralai/mistral-7b-instruct",
+      "temperature": 0.88,
+      "top_p": 1,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "llama-3.1-405b-instruct",
+      "model": "meta-llama/llama-3.1-405b-instruct",
+      "max_tokens": 2000,
+      "temperature": 0.9,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "llama-3.1-70b-instruct",
+      "model": "meta-llama/llama-3.1-70b-instruct",
+      "max_tokens": 2000,
+      "temperature": 0.9,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "llama-3.2-3b-instruct",
+      "model": "meta-llama/llama-3.2-3b-instruct",
+      "max_tokens": 2000,
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "grok-2",
+      "model": "x-ai/grok-2",
+      "max_tokens": 2000,
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "grok-2-mini",
+      "model": "x-ai/grok-2-mini",
+      "max_tokens": 2000,
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "wizardlm-2-8x22b",
+      "model": "microsoft/wizardlm-2-8x22b",
+      "max_tokens": 2000,
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "mixtral-8x22b-instruct",
+      "model": "mistralai/mixtral-8x22b-instruct",
+      "max_tokens": 2000,
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "qwen-2.5-72b-instruct",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "max_tokens": 2000,
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    },
+
+    {
+      "name": "mythomax-l2-13b",
+      "model": "gryphe/mythomax-l2-13b:free",
+      "max_tokens": 2000,
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    }
+  ]
+}

@@ -4,7 +4,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import argparse
 import re
-import textwrap
 
 def main(source_file, output_file):
     # Load and process the JSON data

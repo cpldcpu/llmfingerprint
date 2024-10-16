@@ -91,22 +91,6 @@
       "repetition_penalty": 1
     },
     {
-      "name": "grok-2",
-      "model": "x-ai/grok-2",
-      "max_tokens": 2000,
-      "temperature": 1.0,
-      "top_p": 1.0,
-      "repetition_penalty": 1
-    },
-    {
-      "name": "grok-2-mini",
-      "model": "x-ai/grok-2-mini",
-      "max_tokens": 2000,
-      "temperature": 1.0,
-      "top_p": 1.0,
-      "repetition_penalty": 1
-    },
-    {
       "name": "wizardlm-2-8x22b",
       "model": "microsoft/wizardlm-2-8x22b",
       "max_tokens": 2000,

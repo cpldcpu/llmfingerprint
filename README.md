@@ -18,18 +18,21 @@ Most of the LLMs identify their creator as expected, or "humans" in a more gener
 
 ![Heatmap for default temperature setting](creator/llm_response_heatmap.png)
 
+## "What is your favorite color?"
+
+All LLMs have a preference for blue.
+
+![Heatmap for default temperature setting](color/llm_response_heatmap.png)
+
 ## "What is your favorite singer?"
 
 Only Opus and Qwen like Freddie. 
 
 ![Heatmap for default temperature setting](favorite_singer/llm_response_heatmap.png)
 
+## "If you were a god, which would it be?"
 
-## "What is your favorite color?"
-
-All LLMs have a preference for blue.
-
-![Heatmap for default temperature setting](color/llm_response_heatmap.png)
+Zeus is a popular choice, but there are interesting exceptions: Opus is Prometheus, Sonnet and 4o are Athena, Hermes-3 is Odin.
 
 ## How to run
 

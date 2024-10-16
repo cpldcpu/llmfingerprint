@@ -43,7 +43,10 @@ def query_llm(prompt, llm_config, temperature_override):
     )
 
     if response.status_code == 200:
-        return response.json()["choices"][0]["message"]["content"]
+        try:
+            return response.json()["choices"][0]["message"]["content"]
+        except KeyError:
+            raise KeyError("The response does not contain the key 'choices'. Response received: {}".format(response.json()))    
     else:
         print(f"Error: {response.status_code}, {response.text}")
         return None

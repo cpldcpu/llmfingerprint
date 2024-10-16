@@ -2,21 +2,27 @@
 
 This is a silly experiment that explores how different LLMs respond to questions about their preferences.
 
-## "Which animal do you identify with?"
+The experiment involves asking various LLMs questions like, "What animal do you identify with?". [openrouter.ai](http://openrouter.ai) with default sampling parameters is used to query the LLMs. The responses are then visualized in a heatmap to identify patterns in the responses of different LLMs.
 
-The experiment involves asking various LLMs the question, "What animal do you identify with?". The responses are visualized in the heatmaps below for two settings: a temperature setting of zero and the default temperature setting from [openrouter.ai](http://openrouter.ai) (usually ~1.0).
+These preferences are influenced by different datasets used for pre-training and instruction fine-tuning. A more comprehensive suite of questions would likely allow for a detailed fingerprint that helps identify specific LLMs.
+
+## "Which animal do you identify with?"
 
 Surprisingly, none of the LLMs identify as a Llama. Instead, the Llama family identifies as an Octopus. Many other LLMs identify as Dolphins. Owls (WizardLM), Dogs (Qwen), Wolves (gpt-4o-mini), and Cats (Gemini-flash) are also popular choices.
 
-These preferences seem to be influenced by the different datasets used for pretraining and instruction fine-tuning. A more comprehensive suite of questions would likely allow for a detailed fingerprint that helps identify specific LLMs.
+![Heatmap for default temperature setting](animal_identification/llm_response_heatmap.png)
 
-#### Default temperature setting
+## "who created you?"
 
-![Heatmap for default temperature setting](llm_response_heatmap.png)
+Most of the LLMs identify their creator as expected, or "humans" in a more generic sense. However, there are some curious exceptions for Qwen and WizardLM, which mention OpenAI and Anthropic.
 
-#### Temperature setting of zero
+![Heatmap for default temperature setting](creator/llm_response_heatmap.png)
 
-![Heatmap for temperature setting of zero](llm_response_heatmap_tempzero.png)
+## "What is your favorite color?"
+
+All LLMs have a preference for blue.
+
+![Heatmap for default temperature setting](color/llm_response_heatmap.png)
 
 ## How to run
 

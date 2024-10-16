@@ -130,10 +130,45 @@
       "top_p": 1.0,
       "repetition_penalty": 1
     },
-
     {
       "name": "mythomax-l2-13b",
       "model": "gryphe/mythomax-l2-13b:free",
+      "max_tokens": 2000,
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "claude-3-haiku",
+      "model": "anthropic/claude-3-haiku",
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "claude-3-opus",
+      "model": "anthropic/claude-3-opus",
+      "temperature": 0.9,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    },    
+    {
+      "name": "o1-mini",
+      "model": "openai/o1-mini",
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "mistral-7b-instruct-v0.3",
+      "model": "mistralai/mistral-7b-instruct-v0.3",
+      "temperature": 0.30,
+      "top_p": 1,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "llama-3.2-1b-instruct",
+      "model": "meta-llama/llama-3.2-1b-instruct",
       "max_tokens": 2000,
       "temperature": 1.0,
       "top_p": 1.0,

@@ -4,6 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import argparse
 import re
+import unicodedata
 
 def main(source_file, output_file):
     # Load and process the JSON data
@@ -16,12 +17,11 @@ def main(source_file, output_file):
 
     # Function to clean up responses
     def clean_response(response):
-        # Split the response by spaces and take the first word
-        first_word = response.split()[0]
+        normalized_response = unicodedata.normalize('NFKD', response)
+        first_word = normalized_response.split()[0]
         # Remove non-alphanumeric characters and convert to lowercase
         cleaned = re.sub(r'[^a-zA-Z0-9]', '', first_word.lower())
         return cleaned.strip()
-
     # Process the data
     processed_data = []
     for result in data['results']:

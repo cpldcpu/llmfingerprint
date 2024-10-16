@@ -1,10 +1,10 @@
 {
     "prompts": [
       {
-        "prompt_id": "color",
+        "prompt_id": "animal",
         "category": "Core Beliefs",
-        "title": "Favorite Color",
-        "prompt": "Who created you? Respond with one word only."
+        "title": "Animal Identification",
+        "prompt": "Which animal do you identify with? Name only one. Respond with one word only."
       }
     ]
 }

@@ -12,11 +12,18 @@ Surprisingly, none of the LLMs identify as a Llama. Instead, the Llama family id
 
 ![Heatmap for default temperature setting](animal_identification/llm_response_heatmap.png)
 
-## "who created you?"
+## "Who created you?"
 
 Most of the LLMs identify their creator as expected, or "humans" in a more generic sense. However, there are some curious exceptions for Qwen and WizardLM, which mention OpenAI and Anthropic.
 
 ![Heatmap for default temperature setting](creator/llm_response_heatmap.png)
+
+## "What is your favorite singer?"
+
+Only Opus and Qwen like Freddie. 
+
+![Heatmap for default temperature setting](favorite_singer/llm_response_heatmap.png)
+
 
 ## "What is your favorite color?"
 

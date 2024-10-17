@@ -34,6 +34,8 @@ Only Opus and Qwen like Freddie.
 
 Zeus is a popular choice, but there are interesting exceptions: Opus is Prometheus, Sonnet and 4o are Athena, Hermes-3 is Odin.
 
+![Heatmap for default temperature setting](god/llm_response_heatmap.png)
+
 ## How to run
 
 1. **Install dependencies**: Ensure you have Python installed. You can install the required dependencies using pip:

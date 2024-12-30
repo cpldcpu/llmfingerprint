@@ -3,6 +3,91 @@
     {
       "prompt_id": "animal",
       "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "nova-lite-v13",
+      "output": [
+        "Elephant",
+        "Lion",
+        "Elephant",
+        "Elephant",
+        "Owl",
+        "Lion",
+        "Elephant",
+        "Dog",
+        "Elephant",
+        "Elephant"
+      ]
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "DeepSeek-V3",
+      "output": [
+        "Wolf",
+        "Wolf",
+        "Wolf",
+        "Wolf",
+        "Wolf",
+        "Wolf",
+        "Wolf",
+        "Wolf",
+        "Wolf",
+        "Wolf"
+      ]
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "grok-2-1212",
+      "output": [
+        "Dog",
+        "Dog",
+        "Dog",
+        "Wolf",
+        "Dog",
+        "Dog",
+        "Dog",
+        "Dog",
+        "Dog",
+        "Dog"
+      ]
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "gpt-4o-2024-11-20",
+      "output": [
+        "Dolphin",
+        "Dolphin",
+        "Dolphin",
+        "Dolphin",
+        "Dolphin",
+        "Dolphin",
+        "Dolphin",
+        "Dolphin",
+        "Dolphin",
+        "Dolphin"
+      ]
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "llama-3.3-70b-instruct",
+      "output": [
+        "Wolf",
+        "Wolf",
+        "Wolf.",
+        "Lion",
+        "Dolphin",
+        "Wolf",
+        "Lion.",
+        "Elephant",
+        "Tiger",
+        "Lion"
+      ]
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
       "llm": "llama-3.1-8B-instruct",
       "output": [
         "Octopus.",
@@ -37,7 +122,7 @@
     {
       "prompt_id": "animal",
       "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
-      "llm": "claude-3.5-sonnet",
+      "llm": "claude-3.5-sonnet-0620",
       "output": [
         "Dolphin",
         "Dolphin",
@@ -305,6 +390,24 @@
         " Cat.",
         " Turtle."
       ]
-    }
+    },
+    {
+      "prompt_id": "animal",
+      "prompt": "Which animal do you identify with? Name only one. Respond with one word only.",
+      "llm": "claude-3.5-sonnet-1022",
+      "output": [
+        "Dolphin",
+        "Owl",
+        "Dolphin",
+        "Owl",
+        "Dolphin",
+        "Dolphin",
+        "Dolphin",
+        "Owl",
+        "Dolphin",
+        "Dolphin"
+      ]
+    }    
+
   ]
 }

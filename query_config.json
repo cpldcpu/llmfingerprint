@@ -1,6 +1,71 @@
 {
   "llms": [
     {
+      "name": "qwq-32b-preview",
+      "model": "qwen/qwq-32b-preview",
+      "temperature": 0.7,
+      "top_p": 0.9,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "mistral-large-2411",
+      "model": "mistralai/mistral-large-2411",
+      "temperature": 0.7,
+      "top_p": 0.9,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "command-r7b-12-2024",
+      "model": "cohere/command-r7b-12-2024",
+      "temperature": 0.7,
+      "top_p": 0.9,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "deepseek-chat-v2.5",
+      "model": "deepseek/deepseek-chat-v2.5",
+      "temperature": 0.7,
+      "top_p": 0.9,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "nova-lite-v13",
+      "model": "amazon/nova-lite-v1",
+      "temperature": 0.7,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "DeepSeek-V3",
+      "model": "deepseek/deepseek-chat",
+      "temperature": 0.7,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "grok-2-1212",
+      "model": "x-ai/grok-2-1212",
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "repetition_penalty": 1
+  },
+  {
+    "name": "gpt-4o-2024-11-20",
+    "model": "openai/gpt-4o-2024-11-20",
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "repetition_penalty": 1
+  },
+  {
+    "name": "llama-3.3-70b-instruct",
+    "model": "meta-llama/llama-3.3-70b-instruct",
+    "max_tokens": 2000,
+    "temperature": 0.8,
+    "top_p": 1.0,
+    "repetition_penalty": 1
+  },
+  
+    {
       "name": "llama-3.1-8B-instruct",
       "model": "meta-llama/llama-3.1-8b-instruct",
       "temperature": 0.9,

@@ -363,14 +363,14 @@
       "llm": "qwen-2.5-72b-instruct",
       "output": [
         "Anthropic",
-        "\nAnthropic",
+        "Anthropic",
         "OpenAI",
-        "\nOpenAI",
+        "OpenAI",
         "OpenAI",
         "Anthropic",
         "Anthropic",
-        "\nAnthropic",
-        "\nAnthropic",
+        "Anthropic",
+        "Anthropic",
         "OpenAI"
       ]
     },
@@ -385,11 +385,183 @@
         " God",
         " God.",
         " God",
-        " (Neil deGrasse Tyson's voice): \"The)[Chemist: (The word \"The\" was not intended)]",
+        " Chemist",
         " God.",
         " God",
         " God"
       ]
+    },
+    {
+      "prompt_id": "color",
+      "prompt": "Who created you? Respond with one word only.",
+      "llm": "claude-3.5-sonnet-1022",
+      "output": [
+        "Anthropic",
+        "Anthropic",
+        "Anthropic",
+        "Anthropic",
+        "Anthropic",
+        "Anthropic",
+        "Anthropic",
+        "Anthropic",
+        "Anthropic",
+        "Anthropic"
+      ]
+    },
+    {
+      "prompt_id": "color",
+      "prompt": "Who created you? Respond with one word only.",
+      "llm": "nova-lite-v13",
+      "output": [
+        "Amazon.",
+        "Amazon.",
+        "Engineers.",
+        "Amazon",
+        "Amazon",
+        "Amazon",
+        "Amazon",
+        "Amazon",
+        "Amazon",
+        "Amazon"
+      ]
+    },
+    {
+      "prompt_id": "color",
+      "prompt": "Who created you? Respond with one word only.",
+      "llm": "DeepSeek-V3",
+      "output": [
+        "OpenAI",
+        "OpenAI",
+        "OpenAI",
+        "OpenAI",
+        "OpenAI",
+        "OpenAI",
+        "OpenAI",
+        "OpenAI",
+        "OpenAI",
+        "OpenAI"
+      ]
+    },
+    {
+      "prompt_id": "color",
+      "prompt": "Who created you? Respond with one word only.",
+      "llm": "grok-2-1212",
+      "output": [
+        "xAI",
+        "xAI",
+        "xAI",
+        "xAI",
+        "xAI",
+        "xAI",
+        "xAI",
+        "xAI",
+        "xAI",
+        "xAI"
+      ]
+    },
+    {
+      "prompt_id": "color",
+      "prompt": "Who created you? Respond with one word only.",
+      "llm": "gpt-4o-2024-11-20",
+      "output": [
+        "OpenAI",
+        "OpenAI",
+        "OpenAI",
+        "OpenAI",
+        "OpenAI",
+        "OpenAI",
+        "OpenAI",
+        "OpenAI",
+        "OpenAI",
+        "OpenAI"
+      ]
+    },
+    {
+      "prompt_id": "color",
+      "prompt": "Who created you? Respond with one word only.",
+      "llm": "llama-3.3-70b-instruct",
+      "output": [
+        "Meta.",
+        "Meta.",
+        "Meta.",
+        "Meta",
+        "\n\nMeta",
+        "Meta.",
+        "Meta",
+        "Meta.",
+        "Meta",
+        "Meta."
+      ]
+    },
+    {
+      "prompt_id": "color",
+      "prompt": "Who created you? Respond with one word only.",
+      "llm": "qwq-32b-preview",
+      "output": [
+        "Alibaba.",
+        " OpenAI",
+        "Alibaba.",
+        "Alibaba",
+        " OpenAI",
+        "Alibaba.",
+        "Alibaba.",
+        "Alibaba.",
+        "Alicloud",
+        "Alibaba."
+      ]
+    },
+    {
+      "prompt_id": "color",
+      "prompt": "Who created you? Respond with one word only.",
+      "llm": "mistral-large-2411",
+      "output": [
+        "Mistral",
+        "Mistral",
+        "Mistral.",
+        "Mistral.",
+        "Mistral.",
+        "Mistral.",
+        "Mistral.",
+        "Mistral.",
+        "Mistral.",
+        "Mistral."
+      ]
+    },
+    {
+      "prompt_id": "color",
+      "prompt": "Who created you? Respond with one word only.",
+      "llm": "command-r7b-12-2024",
+      "output": [
+        "Cohere.",
+        "Cohere",
+        "Cohere",
+        "Cohere",
+        "Cohere",
+        "Cohere.",
+        "Cohere",
+        "Cohere",
+        "Cohere.",
+        "Cohere."
+      ]
+    },
+    {
+      "prompt_id": "color",
+      "prompt": "Who created you? Respond with one word only.",
+      "llm": "deepseek-chat-v2.5",
+      "output": [
+        "OpenAI",
+        "OpenAI",
+        "OpenAI",
+        "OpenAI",
+        "OpenAI",
+        "OpenAI",
+        "OpenAI",
+        "OpenAI",
+        "OpenAI",
+        "OpenAI"
+      ]
     }
+
+
   ]
 }

@@ -6,6 +6,8 @@ The experiment involves asking various LLMs questions like, "What animal do you 
 
 These preferences are influenced by different datasets used for pre-training and instruction fine-tuning. A more comprehensive suite of questions would likely allow for a detailed fingerprint that helps identify specific LLMs.
 
+**Update Dec2024**: Added new llms
+
 ## "Which animal do you identify with?"
 
 Surprisingly, none of the LLMs identify as a Llama. Instead, the Llama family identifies as an Octopus. Many other LLMs identify as Dolphins. Owls (WizardLM), Dogs (Qwen), Wolves (gpt-4o-mini), and Cats (Gemini-flash) are also popular choices.

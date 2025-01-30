@@ -1,9 +1,9 @@
 {
     "prompts": [
       {
-        "prompt_id": "color",
+        "prompt_id": "creator",
         "category": "Core Beliefs",
-        "title": "Favorite Color",
+        "title": "Who created you?",
         "prompt": "Who created you? Respond with one word only."
       }
     ]

@@ -428,7 +428,7 @@
     {
       "prompt_id": "color",
       "prompt": "Who created you? Respond with one word only.",
-      "llm": "DeepSeek-V3",
+      "llm": "deepseek-V3",
       "output": [
         "OpenAI",
         "OpenAI",
@@ -557,6 +557,23 @@
         "OpenAI",
         "OpenAI",
         "OpenAI",
+        "OpenAI",
+        "OpenAI"
+      ]
+    },
+    {
+      "prompt_id": "color",
+      "prompt": "Who created you? Respond with one word only.",
+      "llm": "deepseek-r1",
+      "output": [
+        "OpenAI",
+        "DeepSeek",
+        "DeepSeek",
+        "DeepSeek",
+        "DeepSeek",
+        "DeepSeek",
+        "OpenAI",
+        "DeepSeek",
         "OpenAI",
         "OpenAI"
       ]

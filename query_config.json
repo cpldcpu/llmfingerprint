@@ -230,6 +230,46 @@
       "temperature": 1.0,
       "top_p": 1.0,
       "repetition_penalty": 1
+    },
+    {
+      "name": "minimax-01",
+      "model": "minimax/minimax-01",
+      "max_tokens": 2000,
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "phi-4",
+      "model": "microsoft/phi-4",
+      "max_tokens": 2000,
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "lfm-7b",
+      "model": "liquid/lfm-7b",
+      "max_tokens": 2000,
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    },
+    {
+      "name": "sonar",
+      "model": "perplexity/sonar",
+      "max_tokens": 2000,
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1
+    },    
+    {
+      "name": "sonar-reasoning",
+      "model": "perplexity/sonar-reasoning",
+      "max_tokens": 2000,
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "repetition_penalty": 1
     }
   ]
 }
